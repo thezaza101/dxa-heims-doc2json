@@ -1,0 +1,10 @@
+D:\HEIMS-DOC-TO-JSON\bin\Debug\netcoreapp2.0\HEIMS-DOC-TO-JSON.deps.json
+D:\HEIMS-DOC-TO-JSON\bin\Debug\netcoreapp2.0\HEIMS-DOC-TO-JSON.runtimeconfig.json
+D:\HEIMS-DOC-TO-JSON\bin\Debug\netcoreapp2.0\HEIMS-DOC-TO-JSON.runtimeconfig.dev.json
+D:\HEIMS-DOC-TO-JSON\bin\Debug\netcoreapp2.0\HEIMS-DOC-TO-JSON.dll
+D:\HEIMS-DOC-TO-JSON\bin\Debug\netcoreapp2.0\HEIMS-DOC-TO-JSON.pdb
+D:\HEIMS-DOC-TO-JSON\obj\Debug\netcoreapp2.0\HEIMS-DOC-TO-JSON.csproj.CoreCompileInputs.cache
+D:\HEIMS-DOC-TO-JSON\obj\Debug\netcoreapp2.0\HEIMS-DOC-TO-JSON.AssemblyInfoInputs.cache
+D:\HEIMS-DOC-TO-JSON\obj\Debug\netcoreapp2.0\HEIMS-DOC-TO-JSON.AssemblyInfo.cs
+D:\HEIMS-DOC-TO-JSON\obj\Debug\netcoreapp2.0\HEIMS-DOC-TO-JSON.dll
+D:\HEIMS-DOC-TO-JSON\obj\Debug\netcoreapp2.0\HEIMS-DOC-TO-JSON.pdb
