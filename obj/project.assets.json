@@ -3896,11 +3896,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\HEIMS-DOC-TO-JSON\\HEIMS-DOC-TO-JSON.csproj",
+      "projectUniqueName": "D:\\dxa-heims-doc2json\\HEIMS-DOC-TO-JSON.csproj",
       "projectName": "HEIMS-DOC-TO-JSON",
-      "projectPath": "D:\\HEIMS-DOC-TO-JSON\\HEIMS-DOC-TO-JSON.csproj",
+      "projectPath": "D:\\dxa-heims-doc2json\\HEIMS-DOC-TO-JSON.csproj",
       "packagesPath": "C:\\Users\\theza\\.nuget\\packages\\",
-      "outputPath": "D:\\HEIMS-DOC-TO-JSON\\obj\\",
+      "outputPath": "D:\\dxa-heims-doc2json\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -8,3 +8,13 @@ D:\HEIMS-DOC-TO-JSON\obj\Debug\netcoreapp2.0\HEIMS-DOC-TO-JSON.AssemblyInfoInput
 D:\HEIMS-DOC-TO-JSON\obj\Debug\netcoreapp2.0\HEIMS-DOC-TO-JSON.AssemblyInfo.cs
 D:\HEIMS-DOC-TO-JSON\obj\Debug\netcoreapp2.0\HEIMS-DOC-TO-JSON.dll
 D:\HEIMS-DOC-TO-JSON\obj\Debug\netcoreapp2.0\HEIMS-DOC-TO-JSON.pdb
+D:\dxa-heims-doc2json\bin\Debug\netcoreapp2.0\HEIMS-DOC-TO-JSON.deps.json
+D:\dxa-heims-doc2json\bin\Debug\netcoreapp2.0\HEIMS-DOC-TO-JSON.runtimeconfig.json
+D:\dxa-heims-doc2json\bin\Debug\netcoreapp2.0\HEIMS-DOC-TO-JSON.runtimeconfig.dev.json
+D:\dxa-heims-doc2json\bin\Debug\netcoreapp2.0\HEIMS-DOC-TO-JSON.dll
+D:\dxa-heims-doc2json\bin\Debug\netcoreapp2.0\HEIMS-DOC-TO-JSON.pdb
+D:\dxa-heims-doc2json\obj\Debug\netcoreapp2.0\HEIMS-DOC-TO-JSON.csproj.CoreCompileInputs.cache
+D:\dxa-heims-doc2json\obj\Debug\netcoreapp2.0\HEIMS-DOC-TO-JSON.AssemblyInfoInputs.cache
+D:\dxa-heims-doc2json\obj\Debug\netcoreapp2.0\HEIMS-DOC-TO-JSON.AssemblyInfo.cs
+D:\dxa-heims-doc2json\obj\Debug\netcoreapp2.0\HEIMS-DOC-TO-JSON.dll
+D:\dxa-heims-doc2json\obj\Debug\netcoreapp2.0\HEIMS-DOC-TO-JSON.pdb

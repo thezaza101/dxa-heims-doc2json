@@ -10,6 +10,8 @@ namespace HEIMS_DOC_TO_JSON
         static void Main(string[] args)
         {
             string data = "";
+            //Read file
+            //Replace "class=WordSection" with "id=WordSection"
 
             HtmlDocument doc = new HtmlDocument();
             doc.Load("Data1.htm");
