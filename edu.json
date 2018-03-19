@@ -9,13 +9,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code which uniquely identifies the Higher Education Provider",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: INSTITUTION",
+            "identifier": "https://dxa.gov.au/definition/edu/edu306",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/306"
         },
         {
@@ -23,13 +26,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code which uniquely identifies each course within a Higher Education/VET Provider (Provider).",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: COURSE",
+            "identifier": "https://dxa.gov.au/definition/edu/edu307",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Alphanumeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/307"
         },
         {
@@ -37,13 +43,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "The full name of the course",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: COURSE-NAME",
+            "identifier": "https://dxa.gov.au/definition/edu/edu308",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Alphanumeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/308"
         },
         {
@@ -51,13 +60,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code which indicates the type of higher education/VET course",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: COURSE-TYPE",
+            "identifier": "https://dxa.gov.au/definition/edu/edu310",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/310"
         },
         {
@@ -65,13 +77,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code which identifies courses of special interest to the department",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: SPECIAL-COURSE",
+            "identifier": "https://dxa.gov.au/definition/edu/edu312",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/312"
         },
         {
@@ -79,13 +94,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code which uniquely identifies the student within the higher education/VET provider and remains constant from year to year",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: STUDENT-ID",
+            "identifier": "https://dxa.gov.au/definition/edu/edu313",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Alphanumeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/313"
         },
         {
@@ -93,13 +111,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "The day, month and year of birth of the person",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: DATE-OF-BIRTH",
+            "identifier": "https://dxa.gov.au/definition/edu/edu314",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/314"
         },
         {
@@ -107,13 +128,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code which identifies the sex of a person",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: GENDER",
+            "identifier": "https://dxa.gov.au/definition/edu/edu315",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Alphanumeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/315"
         },
         {
@@ -121,13 +145,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code which identifies whether or not the student/applicant identifies herself or himself as being of Aboriginal and/or Torres Strait Islander descent",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: ABORIG-TORRES",
+            "identifier": "https://dxa.gov.au/definition/edu/edu316",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/316"
         },
         {
@@ -135,13 +162,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "The Australian postcode or overseas country code for the residence in which the student lives during the term/period of study, as most recently advised prior to the reference date",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: TERM-LOCATION",
+            "identifier": "https://dxa.gov.au/definition/edu/edu319",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Alphanumeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/319"
         },
         {
@@ -149,13 +179,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "The Australian postcode or overseas country code of a student's/applicant�s permanent home residence",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: HOME-LOCATION",
+            "identifier": "https://dxa.gov.au/definition/edu/edu320",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Alphanumeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/320"
         },
         {
@@ -163,13 +196,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code which identifies the main criterion used by the Higher Education/VET Provider in granting a student admission to the current course, OR a Higher Education Provider granting an offer/admission to an applicant in a course",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: NEW-ADMISSION",
+            "identifier": "https://dxa.gov.au/definition/edu/edu327",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/327"
         },
         {
@@ -177,13 +213,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code which indicates the month and year in which the student commenced the current course for the first time",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: COMMENCEMENT-DATE",
+            "identifier": "https://dxa.gov.au/definition/edu/edu328",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/328"
         },
         {
@@ -191,13 +230,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code which identifies the mode of attendance by which the student undertakes a unit of study OR the mode of attendance for a preference or offered course as indicated by an applicant",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: ATTENDANCE-MODE",
+            "identifier": "https://dxa.gov.au/definition/edu/edu329",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/329"
         },
         {
@@ -205,13 +247,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code which identifies whether a student is classified as being a full-time or part-time.",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: ATTENDANCE-TYPE",
+            "identifier": "https://dxa.gov.au/definition/edu/edu330",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/330"
         },
         {
@@ -219,13 +264,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code assigned by the Higher Education Provider which uniquely identifies the academic organisational unit providing a unit of study or part of a unit of study.",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: AOU",
+            "identifier": "https://dxa.gov.au/definition/edu/edu333",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Alphanumeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/333"
         },
         {
@@ -233,13 +281,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "An indicator of whether a unit of study consists wholly of work experience in industry",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: INDUSTRY",
+            "identifier": "https://dxa.gov.au/definition/edu/edu337",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/337"
         },
         {
@@ -247,13 +298,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "The EFTSL value representing the student load for a unit of study",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: EFTSL",
+            "identifier": "https://dxa.gov.au/definition/edu/edu339",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/339"
         },
         {
@@ -261,13 +315,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code representing the country of birth of a student",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: COUNTRY-BIRTH",
+            "identifier": "https://dxa.gov.au/definition/edu/edu346",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/346"
         },
         {
@@ -275,13 +332,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "The year in which a student/applicant not born in Australia first arrived in Australia.",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: YEAR-ARRIVAL",
+            "identifier": "https://dxa.gov.au/definition/edu/edu347",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Alphanumeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/347"
         },
         {
@@ -289,13 +349,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code indicating use of a language other than English at the person's permanent home residence",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: LANGUAGE-HOME",
+            "identifier": "https://dxa.gov.au/definition/edu/edu348",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/348"
         },
         {
@@ -303,13 +366,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "The aggregated EFTSL value for a course of study, summed across all units of study which meet the academic requirements for the course of study",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: COURSE-LOAD",
+            "identifier": "https://dxa.gov.au/definition/edu/edu350",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/350"
         },
         {
@@ -317,13 +383,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code which uniquely identifies a unit of study",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: UNIT-STUDY",
+            "identifier": "https://dxa.gov.au/definition/edu/edu354",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Alphanumeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/354"
         },
         {
@@ -331,13 +400,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code which categorises a students unit of study completion status.",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: UNIT-STATUS",
+            "identifier": "https://dxa.gov.au/definition/edu/edu355",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/355"
         },
         {
@@ -345,13 +417,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code indicating a student's/applicant�s citizenship and residence status",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: CITIZEN-RESIDENT",
+            "identifier": "https://dxa.gov.au/definition/edu/edu358",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/358"
         },
         {
@@ -359,13 +434,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code indicating the tertiary entrance score obtained by a student commencing an undergraduate award course OR an applicant applying for an undergraduate award course",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: TERT-ENT-SCORE",
+            "identifier": "https://dxa.gov.au/definition/edu/edu369",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/369"
         },
         {
@@ -373,13 +451,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "The amount which has been paid for a unit of study or SA-HELP loan",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: AMT-PAID",
+            "identifier": "https://dxa.gov.au/definition/edu/edu381",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/381"
         },
         {
@@ -387,13 +468,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "Amount charged for the unit of study or Student Amenities fee.",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: AMT-CHARGED",
+            "identifier": "https://dxa.gov.au/definition/edu/edu384",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/384"
         },
         {
@@ -401,13 +485,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "For students with a commencement date of 2007 or earlier; the percentage of the course�s requirements over all its stages for which exemption was granted by the time the requirements of the course were completed.",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: TOTAL-EXEMPTION",
+            "identifier": "https://dxa.gov.au/definition/edu/edu385",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/385"
         },
         {
@@ -415,13 +502,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "An eight-character code indicating responses to three questions about disabilities",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: DISABILITY",
+            "identifier": "https://dxa.gov.au/definition/edu/edu386",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/386"
         },
         {
@@ -429,13 +519,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code which identifies details about citizenship, permanent resident status and permanent visa status",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: ELIGIBILITY",
+            "identifier": "https://dxa.gov.au/definition/edu/edu390",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/390"
         },
         {
@@ -443,13 +536,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code that indicates which maximum student contribution was used in calculating the student contribution amount",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: MAXIMUM STUDENT CONTRIBUTION",
+            "identifier": "https://dxa.gov.au/definition/edu/edu392",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/392"
         },
         {
@@ -457,13 +553,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "The full name of a course of study",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: COURSE-OF-STUDY-NAME",
+            "identifier": "https://dxa.gov.au/definition/edu/edu394",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Alphanumeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/394"
         },
         {
@@ -471,13 +570,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code which uniquely identifies a member of staff within the higher education provider",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: PERSON-ID",
+            "identifier": "https://dxa.gov.au/definition/edu/edu401",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Alphanumeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/401"
         },
         {
@@ -485,13 +587,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "The surname of the student/applicant.",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: STUDENT-SURNAME",
+            "identifier": "https://dxa.gov.au/definition/edu/edu402",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Alphanumeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/402"
         },
         {
@@ -499,13 +604,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "The first given name of the student/applicant",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: STUDENT-GIVEN1",
+            "identifier": "https://dxa.gov.au/definition/edu/edu403",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Alphanumeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/403"
         },
         {
@@ -513,13 +621,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "The other given name or names of the student/applicant",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: STUDENT-OTHERNAM",
+            "identifier": "https://dxa.gov.au/definition/edu/edu404",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Alphanumeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/404"
         },
         {
@@ -527,13 +638,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "The title used with a student's name",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: STUDENT-TITLE",
+            "identifier": "https://dxa.gov.au/definition/edu/edu405",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Alphanumeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/405"
         },
         {
@@ -541,13 +655,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "The first part of the postal address for correspondence to be sent to the student/applicant",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: STUDENT-POSTAL1",
+            "identifier": "https://dxa.gov.au/definition/edu/edu406",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Alphanumeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/406"
         },
         {
@@ -555,13 +672,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "The second part of the postal address for correspondence to be sent to the student/applicant",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: STUDENT-POSTAL2",
+            "identifier": "https://dxa.gov.au/definition/edu/edu407",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Alphanumeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/407"
         },
         {
@@ -569,13 +689,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code which indicates the classification type and level in respect of the current duties of a member of staff at the reference date.",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: CLASSN-CURRENT",
+            "identifier": "https://dxa.gov.au/definition/edu/edu408",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/408"
         },
         {
@@ -583,13 +706,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "The postcode or overseas country code of the postal address for correspondence to be sent to the student/applicant",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: STUDENT-POCODE",
+            "identifier": "https://dxa.gov.au/definition/edu/edu409",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Alphanumeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/409"
         },
         {
@@ -597,13 +723,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "The first part of the address for the student's permanent home residence",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: HOME-PART1",
+            "identifier": "https://dxa.gov.au/definition/edu/edu410",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Alphanumeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/410"
         },
         {
@@ -611,13 +740,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "The second part of the address for the student's permanent home residence",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: HOME-PART2",
+            "identifier": "https://dxa.gov.au/definition/edu/edu411",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Alphanumeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/411"
         },
         {
@@ -625,13 +757,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "The function being performed in the one work sector and one organisational unit by a member of staff in respect of their current duties",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: FUNCTION",
+            "identifier": "https://dxa.gov.au/definition/edu/edu412",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/412"
         },
         {
@@ -639,13 +774,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "The Australian postcode or overseas country code for the student's permanent home residence",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: HOME-POCODE",
+            "identifier": "https://dxa.gov.au/definition/edu/edu413",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Alphanumeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/413"
         },
         {
@@ -653,13 +791,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "The reporting year and period to which the individual data record relates",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: REPORTING YEAR / PERIOD",
+            "identifier": "https://dxa.gov.au/definition/edu/edu415",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/415"
         },
         {
@@ -667,13 +808,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "The tax file number for a student",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: TF-NUMBER",
+            "identifier": "https://dxa.gov.au/definition/edu/edu416",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/416"
         },
         {
@@ -681,13 +825,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "The salary level of a member of staff at the reference date, expressed in terms of the annual amount which would be paid to a person performing on a full-time basis the same type of duties as the member of staff and in respect of their current duties",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: CURRENT-SALARY",
+            "identifier": "https://dxa.gov.au/definition/edu/edu423",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/423"
         },
         {
@@ -695,13 +842,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A numeric code which identifies the reason for a variation",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: VAR-REASON-CODE",
+            "identifier": "https://dxa.gov.au/definition/edu/edu446",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/446"
         },
         {
@@ -709,13 +859,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code which indicates if a course of study is a combined course of study",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: COMBINED-CRS",
+            "identifier": "https://dxa.gov.au/definition/edu/edu455",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/455"
         },
         {
@@ -723,13 +876,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "The total EFTSL value that has been consumed at previous Higher Education Provider by a student who was enrolled in those Higher Education Provider under the Research Training Program (RTP) and who is enrolled at the current university under the same program.",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: Total previous RTP EFTSL",
+            "identifier": "https://dxa.gov.au/definition/edu/edu460",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/460"
         },
         {
@@ -737,13 +893,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code which identifies the field of education to which the course is classified",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: FOE",
+            "identifier": "https://dxa.gov.au/definition/edu/edu461",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/461"
         },
         {
@@ -751,13 +910,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code which identifies the supplementary field of education to which a Combined Course is classified",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: FOE-SUPP",
+            "identifier": "https://dxa.gov.au/definition/edu/edu462",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Alphanumeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/462"
         },
         {
@@ -765,13 +927,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code which identifies a specialisation within a course for which the academic requirements have or will be completed by a student or a group of students",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: SPECIALISATION",
+            "identifier": "https://dxa.gov.au/definition/edu/edu463",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/463"
         },
         {
@@ -779,13 +944,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code which uniquely identifies the discipline to which a unit of study is classified by the Higher Education Provider/VET provider",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: DISCIPLINE-CODE",
+            "identifier": "https://dxa.gov.au/definition/edu/edu464",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/464"
         },
         {
@@ -793,13 +961,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "The Separation status of a student enrolled in a Higher Degree Research course.",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: Separation Status Code",
+            "identifier": "https://dxa.gov.au/definition/edu/edu465",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/465"
         },
         {
@@ -807,13 +978,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "Postal Address Suburb/Town for the student/applicant",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: POSTAL ADDRESS SUBURB/TOWN",
+            "identifier": "https://dxa.gov.au/definition/edu/edu466",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Alphanumeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/466"
         },
         {
@@ -821,13 +995,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code which uniquely identifies the State/Territory or other area in which the student/applicant has their postal address",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: POSTAL ADDRESS STATE CODE",
+            "identifier": "https://dxa.gov.au/definition/edu/edu467",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Alphanumeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/467"
         },
         {
@@ -835,13 +1012,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A name representing the country of postal address of a student/applicant",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: POSTAL ADDRESS COUNTRY NAME",
+            "identifier": "https://dxa.gov.au/definition/edu/edu468",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Alphanumeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/468"
         },
         {
@@ -849,13 +1029,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "Residential Address Suburb/Town for the student",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: RESIDENTIAL ADDRESS SUBURB/TOWN",
+            "identifier": "https://dxa.gov.au/definition/edu/edu469",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Alphanumeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/469"
         },
         {
@@ -863,13 +1046,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code which uniquely identifies the State/Territory or other area in which the student has their residential address",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: RESIDENTIAL ADDRESS STATE CODE",
+            "identifier": "https://dxa.gov.au/definition/edu/edu470",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Alphanumeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/470"
         },
         {
@@ -877,13 +1063,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A name representing the country of residential address of a student",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: RESIDENTIAL ADDRESS COUNTRY NAME",
+            "identifier": "https://dxa.gov.au/definition/edu/edu471",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Alphanumeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/471"
         },
         {
@@ -891,13 +1080,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "The Australian postcode of a student's permanent home residence in their last year of secondary school for Domestic school leaver commencing an undergraduate or VET course",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: COMMENCING-LOCATION",
+            "identifier": "https://dxa.gov.au/definition/edu/edu476",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Alphanumeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/476"
         },
         {
@@ -905,13 +1097,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "The Australian postcode or overseas country code location of the campus/delivery location of the Higher Education/VET Provider where the student is studying this unit.",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: CAMPUS-POSTCODE",
+            "identifier": "https://dxa.gov.au/definition/edu/edu477",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Alphanumeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/477"
         },
         {
@@ -919,13 +1114,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "Name of suburb/town/locality for the student",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: NAME OF SUBURB/TOWN/LOCALITY",
+            "identifier": "https://dxa.gov.au/definition/edu/edu486",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Alphanumeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/486"
         },
         {
@@ -933,13 +1131,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code which identifies the scholarship type code",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: SCHOLARSHIP-TYPE",
+            "identifier": "https://dxa.gov.au/definition/edu/edu487",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Alphanumeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/487"
         },
         {
@@ -947,13 +1148,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code, allocated by the department, which uniquely identifies the student within the Higher Education or VET Sector and remains constant from year to year",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: CHESSN",
+            "identifier": "https://dxa.gov.au/definition/edu/edu488",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/488"
         },
         {
@@ -961,13 +1165,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code which indicates the year, month and day which is the Census date of that Unit of Study",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: UNIT-STUDY-CENSUS- DATE",
+            "identifier": "https://dxa.gov.au/definition/edu/edu489",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/489"
         },
         {
@@ -975,13 +1182,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code which indicates the student status for a unit of study",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: STUDENT-STATUS",
+            "identifier": "https://dxa.gov.au/definition/edu/edu490",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/490"
         },
         {
@@ -989,13 +1199,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code which indicates the student's or applicant�s highest educational participation and last year of that participation prior to the first enrolment in the course of study",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: HIGHEST-PARTICIPATION",
+            "identifier": "https://dxa.gov.au/definition/edu/edu493",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/493"
         },
         {
@@ -1003,13 +1216,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "The average student contribution amount for a first year student in a Commonwealth supported place.",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: INDIC-COMM-SUPP",
+            "identifier": "https://dxa.gov.au/definition/edu/edu495",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/495"
         },
         {
@@ -1017,13 +1233,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "The average tuition fee for a domestic fee-paying place for a first year student.",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: INDIC-FEE",
+            "identifier": "https://dxa.gov.au/definition/edu/edu496",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/496"
         },
         {
@@ -1031,13 +1250,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code indicating the previous years� lowest entry cut-off required for entry to a CSP for this course at this campus.",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: ENTRY-CUT-OFF-CSP",
+            "identifier": "https://dxa.gov.au/definition/edu/edu497",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/497"
         },
         {
@@ -1045,13 +1267,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code indicating the previous years� lowest entry cut-off required for entry to a domestic fee paying place for this course at this campus.",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: ENTRY-CUT-OFF- DOMESTIC-FEE-PAYING",
+            "identifier": "https://dxa.gov.au/definition/edu/edu498",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/498"
         },
         {
@@ -1059,13 +1284,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "The actual fee to be charged of an overseas student for a course in which a student is enrolled at the Higher Education Provider.",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: OSEAS-FEE",
+            "identifier": "https://dxa.gov.au/definition/edu/edu500",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/500"
         },
         {
@@ -1073,13 +1301,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code which indicates the highest qualification of a member of staff",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: HIGH-QUAL",
+            "identifier": "https://dxa.gov.au/definition/edu/edu501",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/501"
         },
         {
@@ -1087,13 +1318,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code indicating the higher education provider or type of higher education provider where the studies for which the highest qualification of the member of staff with an academic classification were undertaken",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: PLACE-HIGH-QUAL",
+            "identifier": "https://dxa.gov.au/definition/edu/edu502",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/502"
         },
         {
@@ -1101,13 +1335,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code which identifies the term of an effective substantive appointment for a member of staff",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: APPOINT-TERM",
+            "identifier": "https://dxa.gov.au/definition/edu/edu505",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/505"
         },
         {
@@ -1115,13 +1352,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code which identifies whether a member of staff has a full-time work contract or fractional full-time work contract in respect of their current duties.",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: WORK-CONTRACT",
+            "identifier": "https://dxa.gov.au/definition/edu/edu506",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/506"
         },
         {
@@ -1129,13 +1369,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code which identifies the term for a member of staff�s current duties",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: CURRENT-TERM",
+            "identifier": "https://dxa.gov.au/definition/edu/edu507",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/507"
         },
         {
@@ -1143,13 +1386,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code which identifies the classification type and level group for a member of staff in respect of their current duties",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: CLASSN-GROUP",
+            "identifier": "https://dxa.gov.au/definition/edu/edu509",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/509"
         },
         {
@@ -1157,13 +1403,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code which uniquely identifies an organisational unit in which the current duties of a member of staff are being performed",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: ORG-UNIT",
+            "identifier": "https://dxa.gov.au/definition/edu/edu510",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Alphanumeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/510"
         },
         {
@@ -1171,13 +1420,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "The work sector in which a function is being performed in one organisational unit by a member of staff in respect of their current duties",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: WORK-SECTOR",
+            "identifier": "https://dxa.gov.au/definition/edu/edu511",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/511"
         },
         {
@@ -1185,13 +1437,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "Staff resources available at the reference date for a function being performed in one work sector and one organisational unit by a member of staff, in respect of their current duties",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: FTE-REFDATE",
+            "identifier": "https://dxa.gov.au/definition/edu/edu513",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/513"
         },
         {
@@ -1199,13 +1454,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "Staff resources expended in the calendar year prior to the reference year, on the one function in the one work sector and the one organisational unit, by types of members of staff of the same sex and who have the same classification type and level group",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: FTE-PRIOR-YEAR",
+            "identifier": "https://dxa.gov.au/definition/edu/edu514",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/514"
         },
         {
@@ -1213,13 +1471,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "The estimated casual FTE staffing level for a reference year",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: EST-CASUAL-FTE",
+            "identifier": "https://dxa.gov.au/definition/edu/edu515",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/515"
         },
         {
@@ -1227,13 +1488,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code which indicates the year, month and day on which the student commenced the current six month study period for which they are receiving OS-HELP assistance.",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: OS-HELP STUDY PERIOD COMMENCEMENT-DATE",
+            "identifier": "https://dxa.gov.au/definition/edu/edu521",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/521"
         },
         {
@@ -1241,13 +1505,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code indicating the previous years� lowest QLD entry cut-off required for entry to a CSP for this course at this campus.",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: QLD ENTRY CUT-OFF CSP",
+            "identifier": "https://dxa.gov.au/definition/edu/edu523",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/523"
         },
         {
@@ -1255,13 +1522,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code indicating the previous year�s lowest QLD entry cut-off required for entry to a domestic fee paying place for this course at this campus.",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: QLD ENTRY-CUT-OFF-DOMESTIC-FEE-PAYING",
+            "identifier": "https://dxa.gov.au/definition/edu/edu524",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/524"
         },
         {
@@ -1269,13 +1539,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "Name of suburb/town/region where the campus is located.",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: CAMPUS LOCATION",
+            "identifier": "https://dxa.gov.au/definition/edu/edu525",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Alphanumeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/525"
         },
         {
@@ -1283,13 +1556,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code which identifies the status of Commonwealth Scholarship (CS).",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: CLS-STATUS-CODE",
+            "identifier": "https://dxa.gov.au/definition/edu/edu526",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/526"
         },
         {
@@ -1297,13 +1573,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code which indicates the year, month and day on which the student incurred their OS-HELP debt or SA-HELP.",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: HELP-DEBT-INCURRAL-DATE",
+            "identifier": "https://dxa.gov.au/definition/edu/edu527",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/527"
         },
         {
@@ -1311,13 +1590,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "The amount of OS-HELP assistance paid to the student in respect of the six month OS-HELP study period.",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: OS-HELP-PAYMENT",
+            "identifier": "https://dxa.gov.au/definition/edu/edu528",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/528"
         },
         {
@@ -1325,13 +1607,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "The loan fee for a unit of study or OS-HELP loan",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: LOAN-FEE",
+            "identifier": "https://dxa.gov.au/definition/edu/edu529",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/529"
         },
         {
@@ -1339,13 +1624,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code which uniquely identifies an enabling course or a course leading to a higher education award.",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: COURSE-OF-STUDY-CODE",
+            "identifier": "https://dxa.gov.au/definition/edu/edu533",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Alphanumeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/533"
         },
         {
@@ -1353,13 +1641,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code which indicates the month and year in which the student commenced the current course of study for the first time.",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: COURSE-DATE",
+            "identifier": "https://dxa.gov.au/definition/edu/edu534",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/534"
         },
         {
@@ -1367,13 +1658,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code which identifies the variety of ways this course is offered to domestic students",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: COURSE-FEE-TYPE",
+            "identifier": "https://dxa.gov.au/definition/edu/edu536",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/536"
         },
         {
@@ -1381,13 +1675,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code which identifies if additional entrance criteria are used when giving consideration to the offer of a place",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: ADD-ENT-CRI",
+            "identifier": "https://dxa.gov.au/definition/edu/edu537",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/537"
         },
         {
@@ -1395,13 +1692,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code which identifies the reason for the termination of a Commonwealth Scholarship (CS).",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: CS-TERMINATION-CODE",
+            "identifier": "https://dxa.gov.au/definition/edu/edu538",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/538"
         },
         {
@@ -1409,13 +1709,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "The full name of the authorising officer in the Higher Education/VET Provider",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: AUTHORISING-OFFICER",
+            "identifier": "https://dxa.gov.au/definition/edu/edu543",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Alphanumeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/543"
         },
         {
@@ -1423,13 +1726,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code which identifies the Commonwealth Scholarship (CS) type",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: CS- TYPE CODE",
+            "identifier": "https://dxa.gov.au/definition/edu/edu545",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Alphanumeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/545"
         },
         {
@@ -1437,13 +1743,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code indicating if a unit of study is a full-fee summer or winter school unit of study",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: SUM-WIN-SCHOOL",
+            "identifier": "https://dxa.gov.au/definition/edu/edu551",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/551"
         },
         {
@@ -1451,13 +1760,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "The score determined by the institution as the lowest score at which any student, whether Commonwealth Supported or Domestic Fee-paying, be eligible for consideration for this course, excluding special entry.",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: ELIGIBILITY SCORE",
+            "identifier": "https://dxa.gov.au/definition/edu/edu552",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/552"
         },
         {
@@ -1465,13 +1777,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code representing the primary country at which a student receiving OS HELP assistance will study.",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: OS-HELP-COUNTRY-STUDY-PRIMARY",
+            "identifier": "https://dxa.gov.au/definition/edu/edu553",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/553"
         },
         {
@@ -1479,13 +1794,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code representing the second country at which a student receiving OS-HELP assistance will study",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: OS-HELP-COUNTRY-STUDY-SECONDARY",
+            "identifier": "https://dxa.gov.au/definition/edu/edu554",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/554"
         },
         {
@@ -1493,13 +1811,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "The score determined by the institution as the lowest score at which any student, whether Commonwealth Supported or Domestic Fee paying, be eligible for consideration for this course, excluding special entry.",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: QLD-ELIGIBILITY-SCORE",
+            "identifier": "https://dxa.gov.au/definition/edu/edu555",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/555"
         },
         {
@@ -1507,13 +1828,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "The year in which a course will be/ is being offered.",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: OFFER-YEAR",
+            "identifier": "https://dxa.gov.au/definition/edu/edu556",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/556"
         },
         {
@@ -1521,13 +1845,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "The admission centre that handles applications for this course",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: TAC-OFFER",
+            "identifier": "https://dxa.gov.au/definition/edu/edu557",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Alphanumeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/557"
         },
         {
@@ -1535,13 +1862,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "The HELP debt amount for a unit of study or SA-HELP loan",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: HELP-DEBT",
+            "identifier": "https://dxa.gov.au/definition/edu/edu558",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/558"
         },
         {
@@ -1549,13 +1879,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "The Australian postcode or overseas country code of the delivery location/ campus of the Higher Education Provider where the course is being offered",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: COURSE-CAMPUS-POSTCODE",
+            "identifier": "https://dxa.gov.au/definition/edu/edu559",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Alphanumeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/559"
         },
         {
@@ -1563,13 +1896,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code which records the cumulative total EFTSL value of credit/RPL used at the reporting date towards the total requirements of the course, for all students with a commencement date of 2008 or later.",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: CREDIT-USED",
+            "identifier": "https://dxa.gov.au/definition/edu/edu560",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/560"
         },
         {
@@ -1577,13 +1913,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code that records the nature of the study for which credit /RPL was offered, for all students with a commencement date of 2008 or later.",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: CREDIT-BASIS",
+            "identifier": "https://dxa.gov.au/definition/edu/edu561",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/561"
         },
         {
@@ -1591,13 +1930,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code that records details of the field of education of the VET study for which credit/RPL was offered, for all students with a commencement date of 2008 or later.",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: FIELD-DETAILS",
+            "identifier": "https://dxa.gov.au/definition/edu/edu562",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/562"
         },
         {
@@ -1605,13 +1947,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code that records details of the level of the Vocational and Technical Education study for which credit/RPL was offered, for all students with a commencement date of 2008 or later.",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: LEVEL-DETAILS",
+            "identifier": "https://dxa.gov.au/definition/edu/edu563",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/563"
         },
         {
@@ -1619,13 +1964,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code that denotes the type of Vocational and Technical Education provider with whom the qualification or study for which credit/RPL was offered was undertaken, for all students with a commencement date of 2008 or later.",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: PROVIDER-TYPE-DETAILS",
+            "identifier": "https://dxa.gov.au/definition/edu/edu564",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/564"
         },
         {
@@ -1633,13 +1981,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code which records the cumulative total EFTSL value of credit/RPL offered at the reporting date towards the total requirements of the course, for all students with a commencement date of 2008 or later.",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: CREDIT-OFFERED",
+            "identifier": "https://dxa.gov.au/definition/edu/edu565",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/565"
         },
         {
@@ -1647,13 +1998,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code indicating the Higher Education Provider where the studies for which the credit/RPL was offered were undertaken, for all students with a commencement date of 2008 or later.",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: CREDIT-INST",
+            "identifier": "https://dxa.gov.au/definition/edu/edu566",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/566"
         },
         {
@@ -1661,13 +2015,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "This code indicates the purpose of the student scholarship record.",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: Scholarship Variation code",
+            "identifier": "https://dxa.gov.au/definition/edu/edu567",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/567"
         },
         {
@@ -1675,13 +2032,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "The Australian or overseas postcode of the postal address for correspondence to be sent to the student",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: POSTAL ADDRESS � SCHOLARSHIP POSTCODE",
+            "identifier": "https://dxa.gov.au/definition/edu/edu568",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Alphanumeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/568"
         },
         {
@@ -1689,13 +2049,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code which identifies the type of arrangement through which an offshore course is being delivered.",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: CAMPUS-OP-TYPE",
+            "identifier": "https://dxa.gov.au/definition/edu/edu569",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/569"
         },
         {
@@ -1703,13 +2066,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "Principal Mode of Delivery of Offshore Course",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: OFFSHORE-MODE",
+            "identifier": "https://dxa.gov.au/definition/edu/edu570",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/570"
         },
         {
@@ -1717,13 +2083,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code which identifies whether a course is delivered partially or fully offshore.",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: OFFSHORE-DELIVERY",
+            "identifier": "https://dxa.gov.au/definition/edu/edu571",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/571"
         },
         {
@@ -1731,13 +2100,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code that identifies the year in which a commencing domestic student left secondary education.",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: YEAR LEFT SCHOOL",
+            "identifier": "https://dxa.gov.au/definition/edu/edu572",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Alphanumeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/572"
         },
         {
@@ -1745,13 +2117,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code which provides information about the highest educational attainment of the first parent or guardian as identified by the student.",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: EDUCATION-PARENT1",
+            "identifier": "https://dxa.gov.au/definition/edu/edu573",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Alphanumeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/573"
         },
         {
@@ -1759,13 +2134,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code which provides information about the highest educational attainment of a second parent or guardian as identified by the student.",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: EDUCATION-PARENT2",
+            "identifier": "https://dxa.gov.au/definition/edu/edu574",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Alphanumeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/574"
         },
         {
@@ -1773,13 +2151,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code that indicates the percentage of a course completion in a joint degree program that is recognised by a provider.",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: COMP PERCENT",
+            "identifier": "https://dxa.gov.au/definition/edu/edu578",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/578"
         },
         {
@@ -1787,13 +2168,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code indicating the partner Higher Education Provider where study in a joint degree is undertaken.",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: JOINT DEG-INST",
+            "identifier": "https://dxa.gov.au/definition/edu/edu579",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/579"
         },
         {
@@ -1801,13 +2185,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "Areas of study included in a Major or Minor as part of a Course of Study.",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: AREAS-OF-STUDY",
+            "identifier": "https://dxa.gov.au/definition/edu/edu580",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Alphanumeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/580"
         },
         {
@@ -1815,13 +2202,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "Keywords that provide additional information not included in element E580 - Areas of study.",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: COURSE-SEARCH-KEYWORDS",
+            "identifier": "https://dxa.gov.au/definition/edu/edu581",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Alphanumeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/581"
         },
         {
@@ -1829,13 +2219,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code indicating the language a student is studying in preparation for their OS-HELP study in Asia",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: OS-HELP LANGUAGE STUDY",
+            "identifier": "https://dxa.gov.au/definition/edu/edu582",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/582"
         },
         {
@@ -1843,13 +2236,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A date to link a student�s record for OS-HELP language study with their related OS-HELP record for study in Asia.",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: OS-HELP LANGUAGE-STUDY-COMMENCEMENT-DATE",
+            "identifier": "https://dxa.gov.au/definition/edu/edu583",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/583"
         },
         {
@@ -1857,13 +2253,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code which indicates the year and month in which a higher degree by research student submitted their thesis.",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: HDR-THESIS-SUBMISSION-DATE",
+            "identifier": "https://dxa.gov.au/definition/edu/edu591",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/591"
         },
         {
@@ -1871,13 +2270,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code which indicates the year and month in which a higher degree by research student completed their course of study.",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: HDR-COMPLETION-DATE",
+            "identifier": "https://dxa.gov.au/definition/edu/edu592",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/592"
         },
         {
@@ -1885,13 +2287,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code which indicates a type of research end-user engagement undertaken by a Higher Degree by Research student.",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: HDR-END-USER-ENGAGEMENT-CODE",
+            "identifier": "https://dxa.gov.au/definition/edu/edu593",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/593"
         },
         {
@@ -1899,13 +2304,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code that uniquely identifies an application as assigned by the institution or admissions centre during the application phase",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: APPLICATION ID",
+            "identifier": "https://dxa.gov.au/definition/edu/edu700",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Alphanumeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/700"
         },
         {
@@ -1913,13 +2321,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code to indicate the current status of the application",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: APP-STATUS",
+            "identifier": "https://dxa.gov.au/definition/edu/edu701",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/701"
         },
         {
@@ -1927,13 +2338,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code indicating the type of principal Australian Year 12 qualification (including International Baccalaureate) attempted by an applicant in the current year",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: Y12-RESULT-TYPE",
+            "identifier": "https://dxa.gov.au/definition/edu/edu702",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/702"
         },
         {
@@ -1941,13 +2355,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "The date on which an offer of admission in a course was made to an applicant",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: DATE OFFERED",
+            "identifier": "https://dxa.gov.au/definition/edu/edu705",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Alphanumeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/705"
         },
         {
@@ -1955,13 +2372,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "The calendar month and year in which the course will potentially commence for which the applicant has a preference or in which an offer has been made",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: INTAKE DATE",
+            "identifier": "https://dxa.gov.au/definition/edu/edu709",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/709"
         },
         {
@@ -1969,13 +2389,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "The aggregate score associated with a secondary qualification attempted in the current year by an applicant who has qualified for the award of a International Baccalaureate Diploma or Bilingual International Baccalaureate Diploma",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: IB-SCORE",
+            "identifier": "https://dxa.gov.au/definition/edu/edu710",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/710"
         },
         {
@@ -1983,13 +2406,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "The ordinal position of a preference in the set of preferences of an applicant as at the Reference date",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: PREF-POSITION",
+            "identifier": "https://dxa.gov.au/definition/edu/edu713",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/713"
         },
         {
@@ -1997,13 +2423,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code to identify the response of an applicant to an offer of admission to a course",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: OFFER-RESPONSE",
+            "identifier": "https://dxa.gov.au/definition/edu/edu723",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/723"
         },
         {
@@ -2011,13 +2440,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code to identify the sector of a course and the funding source for a higher education course",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: SECTOR-FEE-TYPE",
+            "identifier": "https://dxa.gov.au/definition/edu/edu724",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Alphanumeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/724"
         },
         {
@@ -2025,13 +2457,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code to indicate the country of the postal address of an applicant",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: POSTAL ADDRESS COUNTRY CODE",
+            "identifier": "https://dxa.gov.au/definition/edu/edu728",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/728"
         },
         {
@@ -2039,13 +2474,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code identifying whether an applicant has commenced and/or completed a postgraduate level course (e.g. Higher Doctorate, Doctorate, Master�s Degree); and the last year in which the applicant was enrolled in such a course",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: PRIOR-POST-GRAD",
+            "identifier": "https://dxa.gov.au/definition/edu/edu730",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/730"
         },
         {
@@ -2053,13 +2491,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code identifying whether an applicant has commenced and/or completed a bachelor level course; and the last year in which the applicant was enrolled in such a course",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: PRIOR-DEGREE",
+            "identifier": "https://dxa.gov.au/definition/edu/edu731",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/731"
         },
         {
@@ -2067,13 +2508,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code identifying whether an applicant has commenced and/or completed a sub-degree level course (e.g. Associate degree, Advanced Diploma, Diploma - AQF terminology) at a university, college, or other higher education institute; and the last year in which the applicant was enrolled in such a course",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: PR-SUB-DEG-HE",
+            "identifier": "https://dxa.gov.au/definition/edu/edu732",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/732"
         },
         {
@@ -2081,13 +2525,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code identifying whether an applicant has commenced and/or completed a sub-degree level course (e.g. Associate degree, Advanced Diploma, Diploma - AQF terminology) through a VET pathway and the last year in which the applicant was enrolled in such a course",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: PR-SUB-DEG-VET",
+            "identifier": "https://dxa.gov.au/definition/edu/edu733",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/733"
         },
         {
@@ -2095,13 +2542,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code identifying whether an applicant has commenced and/or completed, a VET award course other than a sub-degree level course (e.g. Associate degree, Advanced Diploma, Diploma � AQF terminology); and the last year in which the applicant was enrolled in such a course",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: PRIOR-VET-AWARD",
+            "identifier": "https://dxa.gov.au/definition/edu/edu734",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/734"
         },
         {
@@ -2109,13 +2559,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code identifying whether an applicant has completed the final year of secondary education through a Registered Training Organisation (RTO) and the year in which the applicant completed the final year of secondary education",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: PRIOR-SECED-RTO",
+            "identifier": "https://dxa.gov.au/definition/edu/edu735",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/735"
         },
         {
@@ -2123,13 +2576,16 @@
             "domain": "Education",
             "status": "Standard",
             "definition": "A code identifying whether an applicant has completed the final year of secondary education at a high school, technical high school, secondary school or secondary college; and the year in which the applicant completed the final year of secondary education",
-            "guidance": null,
-            "usage": null,
+            "guidance": "Field Name: PRIOR-SECED-SCHOOL",
+            "identifier": "https://dxa.gov.au/definition/edu/edu736",
+            "usage": [
+                "See source for more information"
+            ],
             "datatype": {
-                "facets": null,
+                "facets": {},
                 "type": "Numeric"
             },
-            "values": null,
+            "values": [],
             "sourceURL": "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/736"
         }
     ]

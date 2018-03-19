@@ -44,6 +44,9 @@ namespace HEIMS_DOC_TO_JSON
         [JsonProperty("guidance")]
         public string guidance {get; set;}
 
+        [JsonProperty("identifier")]
+        public string identifier {get; set;}
+
         [JsonProperty("usage")]
         public List<string> usage {get; set;}
 
@@ -61,9 +64,13 @@ namespace HEIMS_DOC_TO_JSON
     public class outputDataType
     {
         [JsonProperty("facets")]
-        public string facets {get; set;}
+        public facet facets {get; set;}
 
         [JsonProperty("type")]
         public string type {get; set;}
+    }
+    public class facet
+    {
+
     }
 }

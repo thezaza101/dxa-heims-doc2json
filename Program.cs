@@ -60,8 +60,13 @@ namespace HEIMS_DOC_TO_JSON
                     odm.Domain = "Education";
                     odm.Status = "Standard";
                     odm.Definition = dmf.Description;
-                    odm.dataType = new outputDataType() { type = dmf.CodeFormat.First().Value};
+                    odm.dataType = new outputDataType() { facets = new facet(), type = dmf.CodeFormat.First().Value};
                     odm.sourceURL = "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/"+dmf.ElementNumber;
+                    odm.identifier = "https://dxa.gov.au/definition/"+dm.acronym+"/"+dm.acronym+dmf.ElementNumber;
+                    odm.guidance = "Field Name: " + dmf.FieldName ;
+                    odm.usage = new List<string>();
+                    odm.usage.Add("See source for more information");
+                    odm.values = new List<string>();
                     listOdm.Add(odm);
                 }
                 dm.content = listOdm;
@@ -69,7 +74,7 @@ namespace HEIMS_DOC_TO_JSON
 
 
 
-                StreamWriter sw = new StreamWriter("test.json",false);
+                StreamWriter sw = new StreamWriter("edu.json",false);
                 sw.Write(JsonConvert.SerializeObject(dm));
                 sw.Close();
             }
@@ -79,6 +84,8 @@ namespace HEIMS_DOC_TO_JSON
                 DataElement asdf = helpers.ConvertHTML2DataElement(elementData);
                 System.Console.WriteLine(JsonConvert.SerializeObject(asdf));
             }
+
+            System.Console.WriteLine("Press any key to exit");
             
             Console.ReadLine();
             
