@@ -2,7 +2,7 @@ using Newtonsoft.Json;
 
 namespace HEIMS_DOC_TO_JSON
 {
-    struct ChangeRecord
+    public struct ChangeRecord
     {
         [JsonProperty("Version")]
         public string Version {get; set;}

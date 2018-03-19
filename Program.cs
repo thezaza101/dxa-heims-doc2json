@@ -32,18 +32,74 @@ namespace HEIMS_DOC_TO_JSON
             doc.LoadHtml(data);
             helpers.RemoveAttributes(doc);
 
+            DataElementFile def = new DataElementFile();
+            List<DataElement> ele = new List<DataElement>();
+            def.DataElements = ele;
+            Domain dm = new Domain();
+            dm.domain = "Education";
+            dm.acronym = "edu";
+            dm.version = "2017-09-26_15:54";
+            dm.sourceURL = @"http://heimshelp.education.gov.au/sites/heimshelp/2018_Data_Requirements/2018DataElements/Documents/2018-HE-Data-Element-Dictionary.docx";
+            List<OutputDataElement> listOdm = new List<OutputDataElement>();
+            OutputDataElement odm;
 
-            String elementData = doc.GetElementbyId("WordSection3").InnerHtml;
+            if (true)
+            {
+                for (int i = 3; i <count; i++)
+                {
+                    System.Console.WriteLine(i);
+                    String elementData = doc.GetElementbyId("WordSection"+i).InnerHtml;
+                    DataElement asdf = helpers.ConvertHTML2DataElement(elementData);
+                    ele.Add(asdf);
+                }
+
+                foreach (DataElement dmf in def.DataElements)
+                {
+                    odm = new OutputDataElement();
+                    odm.Name = dmf.ElementName;
+                    odm.Domain = "Education";
+                    odm.Status = "Standard";
+                    odm.Definition = dmf.Description;
+                    odm.dataType = new outputDataType() { type = dmf.CodeFormat.First().Value};
+                    odm.sourceURL = "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/"+dmf.ElementNumber;
+                    listOdm.Add(odm);
+                }
+                dm.content = listOdm;
+
+
+
+
+                StreamWriter sw = new StreamWriter("test.json",false);
+                sw.Write(JsonConvert.SerializeObject(dm));
+                sw.Close();
+            }
+            if (false)  
+            {            
+                String elementData = doc.GetElementbyId("WordSection16").InnerHtml;
+                DataElement asdf = helpers.ConvertHTML2DataElement(elementData);
+                System.Console.WriteLine(JsonConvert.SerializeObject(asdf));
+            }
             
-            List<HtmlNode> tables = helpers.SplitTables(elementData);
-            List<ExtendedHTMLNode> tablesMerged = helpers.MergeTablesOnHeaders(tables);
-            DataElement de = new DataElement();
+            Console.ReadLine();
+            
+        }
+    }
+    public static class helpers
+    {
 
+        public static DataElement ConvertHTML2DataElement (string html)
+        {
+            HtmlDocument doc = new HtmlDocument();
+            doc.LoadHtml(html);
+            string sx = doc.DocumentNode.InnerText;
+            sx = sx.Substring(sx.IndexOf("ELEMENT NO.")+12, 3);
+
+            List<HtmlNode> tables = helpers.SplitTables(doc);
+            List<ExtendedHTMLNode> tablesMerged = helpers.MergeTablesOnHeaders(tables);            
+            DataElement de = new DataElement();
+            de.ElementNumber=sx;
             foreach (ExtendedHTMLNode d in tablesMerged)
             {
-                System.Console.WriteLine("Table:");
-                System.Console.WriteLine(d.node.InnerHtml);
-                //System.Console.WriteLine(d.InnerText.Trim());;
                 if (d.type == ElementType.Vers)
                 {
                     de.Version = d.node.InnerText.Replace("VERSION:", "").Trim();
@@ -70,34 +126,129 @@ namespace HEIMS_DOC_TO_JSON
                 }
                 if(d.type==ElementType.Frmt)
                 {
+                    int indexOfDataType = 0;
+                    int indexOfUnits = 0;
+                    int indexOfWidth = 0;
+
+                    indexOfDataType = d.node.InnerText.IndexOf("Data Type:");
+                    indexOfUnits = d.node.InnerText.IndexOf("Units:");
+                    indexOfWidth = d.node.InnerText.IndexOf("Width:");
+                    List<KeyValue> kv = new List<KeyValue>();
+                    KeyValue kvDataType = new KeyValue();
+                    KeyValue kvUnits = new KeyValue();
+                    KeyValue kvWidth = new KeyValue();
+                    kvDataType.Attr = d.node.InnerText.Substring(indexOfDataType,9).Trim();
+                    kvDataType.Value = d.node.InnerText.Substring(indexOfDataType+10, indexOfUnits - (indexOfDataType+11)).Trim();
+                    kvUnits.Attr = d.node.InnerText.Substring(indexOfUnits,5).Trim();
+                    kvUnits.Value = d.node.InnerText.Substring(indexOfUnits+6, indexOfWidth - (indexOfUnits+7)).Trim();
+                    kvWidth.Attr = d.node.InnerText.Substring(indexOfWidth,5).Trim();
+                    kvWidth.Value = d.node.InnerText.Substring(indexOfWidth+6).Trim();
+                    kv.Add(kvDataType);
+                    kv.Add(kvUnits);
+                    kv.Add(kvWidth);
+                    de.CodeFormat = kv;
+                    
 
                 }  
                 if(d.type==ElementType.Clas)
                 {
-                    
+                    bool lastLoopAdded = false;
+                    List<KeyValue> kv = new List<KeyValue>();
+                    KeyValue kvInstance;
+
+                    List<string> para = d.node.InnerHtml.GetParagraphsListFromHtml();
+
+                    try
+                    {
+
+                        for (int i = 1; i<para.Count(); i++)
+                        {
+                            if (!string.IsNullOrWhiteSpace(para[i]))
+                            {
+                                if (!lastLoopAdded){
+                                    kvInstance = new KeyValue();
+                                    kvInstance.Attr = para[i];
+                                    kvInstance.Value = para[i+1];
+                                    if(!kv.Contains(kvInstance))
+                                    {
+                                        kv.Add(kvInstance);
+                                    }
+                                    lastLoopAdded = true;
+                                }
+                                else
+                                {
+                                    lastLoopAdded = false;
+                                }
+                            }
+                        }
+                    }
+                    catch{
+                        kv.Add(new KeyValue { Attr="SystemIssue", Value="Error reading"+d.type.ToString()});
+                    }
+                    de.Classification = kv;
                 }          
                 if(d.type==ElementType.CoNt)
                 {
-                    
+                    de.CodingNotes = d.node.InnerText;
                 }    
                 if(d.type==ElementType.InFi)
                 {
-                    
+                    int indexOfVERSION = 0;
+                    List<string> para = d.node.InnerHtml.GetParagraphsListFromHtml();
+                    List<string> inputFiles = new List<string>();
+                    foreach (string xyz in para)
+                    {
+                        if (xyz.Equals("VERSION"))
+                        {
+                            indexOfVERSION = para.IndexOf(xyz);
+                            break;
+                        }
+                        string[] excludeWords = new string[] 
+                            {"INPUT FILES:",
+                            "HEP - Student",
+                            "HEP - Staff",
+                            "HEP - Applications and Offers"};
+                        if (!excludeWords.Contains(xyz))
+                        {
+                            if (!inputFiles.Contains(xyz))
+                            {
+                                inputFiles.Add(xyz);
+                            }
+                        }
+                    }
+                    de.InputFiles = inputFiles;
+
+                    List<ChangeRecord> changeHist = new List<ChangeRecord>();
+                    ChangeRecord cr;
+                    try
+                    {
+                        for (int i = indexOfVERSION+3; i<para.Count();)
+                        {
+                            if (!string.IsNullOrWhiteSpace(para[i]))
+                            {
+                                cr = new ChangeRecord();
+                                cr.Version = para[i];
+                                cr.RevisionDate = para[i+1];
+                                cr.ReportingYear = para[i+2];
+                                changeHist.Add(cr);
+                                i = i+2;
+                            }
+                        }
+                    }
+                    catch {}
+                    de.ChangeHistory = changeHist;
                 }  
                 if(d.type==ElementType.CHis)
                 {
+                    System.Console.WriteLine(d.type.ToString());
+                    System.Console.WriteLine(d.node.InnerHtml);
                     
                 }  
 
             }
-            System.Console.WriteLine(JsonConvert.SerializeObject(de));
-            
-            Console.ReadLine();
-            
+            return de;
+
         }
-    }
-    public static class helpers
-    {
         public static List<ExtendedHTMLNode> MergeTablesOnHeaders(List<HtmlNode> Splittables)
         {
             string[] headers = new string[] 
@@ -126,7 +277,7 @@ namespace HEIMS_DOC_TO_JSON
                 }
                 else
                 {
-                    output.Last().node.InnerHtml = string.Concat(Splittables[i-1].InnerHtml, Splittables[i].InnerHtml);
+                    output.Last().node.InnerHtml = string.Concat(output.Last().node.InnerHtml, Splittables[i].InnerHtml);
                 }
             }
             return output;
@@ -184,6 +335,31 @@ namespace HEIMS_DOC_TO_JSON
                 count++;
             }
             return count;
+        }
+
+        public static List<string> GetParagraphsListFromHtml(this string sourceHtml)
+        {
+
+            var pars = new List<string>();
+
+            //first create an HtmlDocument
+            HtmlDocument doc = new HtmlDocument();
+
+            //load the html (from a string)
+            doc.LoadHtml(sourceHtml);
+
+            //Select all the <p> nodes in a HtmlNodeCollection
+            HtmlNodeCollection paragraphs = doc.DocumentNode.SelectNodes(".//p");
+
+            //Iterates on every Node in the collection
+            foreach (HtmlNode paragraph in paragraphs)
+            {
+                //Add the InnerText to the list
+                pars.Add(paragraph.InnerText); 
+                //Or paragraph.InnerHtml depends what you want
+            }
+
+            return pars;
         }
 
 

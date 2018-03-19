@@ -8,8 +8,11 @@ using Newtonsoft.Json;
 namespace HEIMS_DOC_TO_JSON
 {
     [JsonObject("DataElement")]
-    class DataElement
+    public class DataElement
     {
+        [JsonProperty("ElementNumber")]
+        public string ElementNumber {get; set;}
+
         [JsonProperty("Version")]
         public string Version {get; set;}
 
@@ -35,13 +38,13 @@ namespace HEIMS_DOC_TO_JSON
         public List<KeyValue> Classification {get; set;}
 
         [JsonProperty("CodingNotes")]
-        public List<KeyValue> CodingNotes {get; set;}
+        public string CodingNotes {get; set;}
 
         [JsonProperty("InputFIles")]
         public List<string> InputFiles {get; set;}        
 
         [JsonProperty("ChangeHistory")]
-        public List<string> ChangeHistory {get; set;} 
+        public List<ChangeRecord> ChangeHistory {get; set;} 
 
     }
 }
