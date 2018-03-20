@@ -25,7 +25,7 @@ namespace HEIMS_DOC_TO_JSON
             System.Console.WriteLine(count);
             
             //further processing to speeed functions            
-            string data = x.Replace("class=WordSection","id=WordSection").Replace("\n","").Replace("\r","").Replace("\t","").Replace("&nbsp;", "").Replace("  ", " ");
+            string data = x.Replace("class=WordSection","id=WordSection").Replace("\n","").Replace("\r","").Replace("\t","").Replace("&nbsp;", "").Replace("�","").Replace("  ", " ");
 
             //read the file as a HtmlDocument
             HtmlDocument doc = new HtmlDocument();
@@ -62,7 +62,7 @@ namespace HEIMS_DOC_TO_JSON
                     odm.Definition = dmf.Description;
                     odm.dataType = new outputDataType() { facets = new facet(), type = dmf.CodeFormat.First().Value};
                     odm.sourceURL = "http://heimshelp.education.gov.au/sites/heimshelp/2018_data_requirements/2018dataelements/pages/"+dmf.ElementNumber;
-                    odm.identifier = "https://dxa.gov.au/definition/"+dm.acronym+"/"+dm.acronym+dmf.ElementNumber;
+                    odm.identifier = "http://dxa.gov.au/definition/"+dm.acronym+"/"+dm.acronym+dmf.ElementNumber;
                     odm.guidance = "Field Name: " + dmf.FieldName ;
                     odm.usage = new List<string>();
                     odm.usage.Add("See source for more information");
